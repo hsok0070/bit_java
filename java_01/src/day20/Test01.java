@@ -18,7 +18,7 @@ public class Test01 {
 		list.add(15);
 		list.add(20);
 
-		list.forEach(i -> System.out.print(i+" "));
+		list.forEach(i -> System.out.print(i+","));
 		System.out.println();
 	
 		list.removeIf(i -> i%2 == 0);

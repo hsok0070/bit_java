@@ -64,9 +64,10 @@ public class Test01 {
 				it.remove();
 			}
 		}
-		System.out.println(list);
+
 		
 		
 		
 	}
 }
+

@@ -1,8 +1,10 @@
 package day22;
 
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 
 public class Test02 {
@@ -17,7 +19,7 @@ public class Test02 {
 		try {
 			fis = new FileInputStream(src);
 			fos = new FileOutputStream("c:/lib/copy.gif",true);
-					
+				BufferedInputStream bis = new BufferedInputStream(new FileInputStream("a.html"));
 			int read = 0 ;
 			int count = 0 ;
 			
