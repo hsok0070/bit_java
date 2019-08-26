@@ -53,8 +53,8 @@ public class Test01 {
 			//7. 자원반납		
 			try {
 				if(rs!= null) rs.close();
-				if(st!= null) rs.close();
-				if(con!= null) rs.close();
+				if(st!= null) st.close();
+				if(con!= null) con.close();
 			}catch(SQLException e) {
 				e.printStackTrace();
 			}

@@ -19,12 +19,14 @@ public class JDBCUtil {
 
 		try {
 			Properties p = new Properties();
-			p.load(new FileInputStream("c://lib//dbinfo2.txt"));
+			p.load(new FileInputStream("c://lib//dbinfo.txt"));
+			
 		
 			String driver = p.getProperty("driver");
 			String url = p.getProperty("url");
 			String user = p.getProperty("user");
 			String pw = p.getProperty("pw");
+			
 			
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, user, pw);		

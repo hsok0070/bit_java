@@ -1,4 +1,4 @@
-package Test;
+package ex;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -23,7 +23,7 @@ public class Prob {
 			rs = ps.executeQuery();
 			
 			if(rs.next()) {
-				System.out.printf("%d ",rs.getInt("평균급여"));
+				System.out.printf("%d \n",rs.getInt("평균급여"));
 			}else {
 				System.out.println("department ID 확인");
 			}

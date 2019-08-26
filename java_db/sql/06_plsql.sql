@@ -53,7 +53,7 @@ CREATE OR REPLACE PROCEDURE InsertBook(
  END;
 /
 
-
+execute InsertBook(1,'java ~~~','한빛',27000);
 execute InsertBook(1,'a','b',1);
 
 **********************************
