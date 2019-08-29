@@ -16,19 +16,6 @@ public class Book {
 		this.price = price;
 		this.publisher = publisher;
 	}
-	
-	
-	public Book(String bookname, int price, int bookid) {
-		super();
-		this.bookname = bookname;
-		this.price = price;
-		this.bookid = bookid;
-	}
-
-	public Book(String bookname) {
-		super();
-		this.bookname = bookname;
-	}
 
 	public int getBookid() {
 		return bookid;

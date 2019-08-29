@@ -31,6 +31,7 @@ class Emp6 {
 			ps = con.prepareStatement(sql);
 			//ps.setString(1, ename);
 			ps.setString(1, "%"+ename.toLowerCase()+"%");
+			//ps.setString(1, ename);
 			// ? 셋팅
 			
 			// 실행 및 결과값 핸들링
